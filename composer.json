@@ -13,6 +13,9 @@
             "email": "coding@daniel-siepmann.de"
         }
     ],
+    "replace": {
+        "bitbucket/client": "*"
+    },
     "require": {
         "php": "^7.1.3",
         "graham-campbell/cache-plugin": "^1.0",
