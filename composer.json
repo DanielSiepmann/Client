@@ -1,5 +1,5 @@
 {
-    "name": "bitbucket/client",
+    "name": "codappix/bitbucket-client",
     "description": "A Modern Bitbucket API 2.0 Client",
     "keywords": ["bitbucket", "bitbucket api", "Bitbucket API", "BitbucketAPI", "Bitbucket", "Bitbucket Client", "Bitbucket API Client", "Graham Campbell", "GrahamCampbell"],
     "license": "MIT",
@@ -7,6 +7,10 @@
         {
             "name": "Graham Campbell",
             "email": "graham@alt-three.com"
+        },
+        {
+            "name": "Daniel Siepmann",
+            "email": "coding@daniel-siepmann.de"
         }
     ],
     "require": {
