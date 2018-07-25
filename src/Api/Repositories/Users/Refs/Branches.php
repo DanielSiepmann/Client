@@ -58,6 +58,20 @@ class Branches extends AbstractRefsApi
 
     /**
      * @param string $branch
+     *
+     * @throws \Http\Client\Exception
+     *
+     * @return array
+     */
+    public function remove(string $branch)
+    {
+        $path = $this->buildBranchesPath($branch);
+
+        return parent::delete($path);
+    }
+
+    /**
+     * @param string $branch
      * @param array  $params
      *
      * @throws \Http\Client\Exception
